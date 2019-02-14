@@ -6,7 +6,6 @@ libssl-dev \
 libglpk-dev \
 libcurl4-gnutls-dev
 
-  
 RUN R -e 'install.packages(c("PortfolioAnalytics"))'
 RUN R -e 'install.packages(c("quantmod"))'
 RUN R -e 'install.packages(c("PerformanceAnalytics"))'
