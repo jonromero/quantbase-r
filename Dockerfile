@@ -18,4 +18,5 @@ RUN R -e 'install.packages(c("magrittr"))'
 RUN R -e 'install.packages(c("plumber"))'
 RUN R -e 'install.packages(c("jsonlite"))'
 RUN R -e 'install.packages(c("xts"))'
-
+RUN R -e 'install.packages(c("httr"))'
+RUN R -e 'install.packages(c("dplyr"))'
