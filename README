@@ -1,0 +1,10 @@
+This is an image that has the most common used libraries for quantitative portfolio analysis (in R) that we use at AgentRisk. 
+The reason why I wanted to have an image instead of just building on top of rocker/r-base, is because most of the libraries that we are using take a lot of time to be compiled. 
+
+The libraries that are compiled and included are:
+
+PortfolioAnalytics, quantmod, PerformanceAnalytics, zoo, ROI, ROI.plugin.quadprog, ROI.plugin.glpk, magrittr, plumber, jsonlite, xts, httr, dplyr
+
+So there you have it, a docker image that has all the tools you need out of the box.
+
+Jon V
